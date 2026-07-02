@@ -1,0 +1,10 @@
+analog,type,pred_pIC50,measured_pIC50,error,AD_maxTanimoto
+hyp: O-acetyl,hypothetical,6.65,,,0.8
+hyp: O-methyl,hypothetical,6.66,,,0.8
+hyp: O-carboxymethyl,hypothetical,6.66,,,0.77
+hyp: O-(dimethylaminoethyl),hypothetical,6.6,,,0.77
+hyp: O-(2-hydroxyethyl),hypothetical,6.66,,,0.76
+hyp: O-acetyl,hypothetical,6.82,,,0.89
+hyp: O-methyl,hypothetical,6.88,,,0.89
+hyp: O-carboxymethyl,hypothetical,6.86,,,0.85
+hyp: O-(dimethylaminoethyl),hypothetical,6.88,,,0.85
