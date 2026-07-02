@@ -1,2 +1,0 @@
-training compounds (rapalogs excluded): 4346
-held-out test:  R2 = 0.745   MAE = 0.44 log units

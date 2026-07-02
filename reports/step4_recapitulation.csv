@@ -1,6 +1,0 @@
-analog,type,pred_pIC50,measured_pIC50,error,AD_maxTanimoto
-Sirolimus (rapamycin),real rapalog,7.43,8.8,-1.37,0.85
-Everolimus,real rapalog,6.83,8.3,-1.47,0.84
-Temsirolimus,real rapalog,6.46,5.75,0.71,0.92
-Ridaforolimus,real rapalog,6.87,,,0.84
-Zotarolimus,real rapalog,7.47,8.48,-1.01,0.86

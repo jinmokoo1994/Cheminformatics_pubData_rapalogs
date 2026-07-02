@@ -1,3 +1,7 @@
 *.ipynb filter=nbstripout
 *.zpln filter=nbstripout
 *.ipynb diff=ipynb
+
+# Results notebook: keep its executed outputs (figures + printed text) in git so
+# they render on GitHub. Overrides the strip rule above for this file only.
+notebooks/rapamycin_qsar.ipynb -filter
