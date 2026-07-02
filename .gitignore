@@ -1,0 +1,17 @@
+# Claude Code local state / linked worktrees
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# Cached ChEMBL pulls / derived data (regenerable in-notebook)
+data/
+*.parquet
+
+# OS
+.DS_Store
