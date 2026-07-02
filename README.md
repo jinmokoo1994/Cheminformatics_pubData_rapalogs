@@ -1,4 +1,4 @@
-# Cheminformatics — public data QSAR
+# Cheminformatics — QSAR using public data
 
 Cheminformatics deliverables built on public bioactivity data (ChEMBL) with RDKit
 and scikit-learn. The emphasis is **experimental-scientist judgment** — data
@@ -8,9 +8,11 @@ provenance, applicability domain, and honest caveats — over leaderboard number
 
 | Notebook | What it does |
 |---|---|
-| [`notebooks/rapamycin_qsar.ipynb`](notebooks/rapamycin_qsar.ipynb) | End-to-end QSAR on **rapamycin** and its **rapalog** library: descriptor calculation → train a pIC50 model on ChEMBL mTOR data → render the analog library (naming the real rapalogs) → predict activity and **test whether predictions recapitulate wet-lab measurements**. |
+| [`notebooks/rapamycin_qsar.ipynb`](notebooks/rapamycin_qsar.ipynb) | End-to-end QSAR on **rapamycin** and its **rapalog** library: descriptor calculation → train a pIC50 model on ChEMBL mTOR data → render the analog library → predict activity and **test whether predictions recapitulate wet-lab measurements**. |
 
-### rapamycin_qsar — headline finding
+### Headline finding
+
+#### rapamycin_qsar.ipynb
 
 Holding the real rapalogs **out of training** and predicting their mTOR potency:
 
@@ -35,7 +37,7 @@ uv run jupyter lab notebooks/rapamycin_qsar.ipynb
 
 Bioactivity is pulled live from [ChEMBL](https://www.ebi.ac.uk/chembl/) via
 `chembl_webresource_client` and cached to `data/` (git-ignored). Notebook outputs
-are heavy (embedded figures) — strip them with `nbstripout` before committing.
+striped with `nbstripout` before committing.
 
 ## License
 
