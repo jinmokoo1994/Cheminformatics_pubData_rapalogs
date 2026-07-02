@@ -37,7 +37,8 @@ uv run jupyter lab notebooks/rapamycin_qsar.ipynb
 
 Bioactivity is pulled live from [ChEMBL](https://www.ebi.ac.uk/chembl/) via
 `chembl_webresource_client` and cached to `data/` (git-ignored). Notebook outputs
-striped with `nbstripout` before committing.
+are stripped with `nbstripout` before committing, except `rapamycin_qsar.ipynb`,
+which is exempt so its results stay embedded in the notebook and render on GitHub.
 
 ## License
 
